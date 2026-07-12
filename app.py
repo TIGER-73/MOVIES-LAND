@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 1. Page Configuration
-st.set_page_config(page_title="TopCinema", page_icon="🎬", layout="wide")
+st.set_page_config(page_title="movies land", page_icon="🎬", layout="wide")
 
 # 2. Advanced CSS to replicate the Dark Premium Grid UI
 st.markdown(
