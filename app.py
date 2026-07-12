@@ -74,8 +74,8 @@ st.markdown(
 st.markdown(
     """
     <div class="nav-container">
-        <div class="logo-text">TopCinema<span>توب سينما</span></div>
-        <div style="color: #888888; font-size: 0.9rem;">Welcome to TopCinema - Premium Free Movie Streaming Platform</div>
+        <div class="logo-text">movies land<span>توب سينما</span></div>
+        <div style="color: #888888; font-size: 0.9rem;">Welcome to movies land - Premium Free Movie Streaming Platform</div>
     </div>
     """, 
     unsafe_allow_html=True
