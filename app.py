@@ -134,3 +134,13 @@ for idx, movie in enumerate(latest_items):
         if st.button(movie["title"], key=f"lat_{movie['id']}"):
             st.session_state.active_video = movie
             st.rerun()
+# Hidden text area for Google Search Bots to index your movie titles
+st.markdown(
+    """
+    <div style="opacity: 0.01; height: 0px; overflow: hidden;">
+        <h2>Available Movies List:</h2>
+        <p>Movie 1, Movie 2, Movie 3, Movie 4, Movie 5, Movie 6, Movie 7, Movie 8, Movie 9, Movie 10</p>
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
